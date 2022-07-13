@@ -8,13 +8,13 @@ const Customer = mongoose.model('Customer', new mongoose.Schema({
     },
     name: {
         type: String,
-        require: true,
+        required: true,
         minlength: 3,
         maxlength: 30
     },
     phone: {
         type: String,
-        require: true,
+        required: true,
         minlength: 3,
         maxlength: 30
     }
